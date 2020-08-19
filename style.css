@@ -1,0 +1,42 @@
+/* set background of body to purple */
+body {
+    background-color: #563d7c;
+}
+/* center align heading */
+#text-align {
+    justify-content: center;    
+}    
+/* heading color set to white */
+.navbar-text {
+    color: white;
+}
+/* left column */
+.col-3 {
+    border: solid 1px lightgray;
+    min-width: 240px;
+    height: 500px;
+}
+/* city card header */
+#city {
+    background-color: white;
+}
+/* all cards */
+.card {
+    min-height: 250px;
+}
+/* set rounded borders to cards */
+.forecast-card .card-body {
+    background-color: #c0a0f3;
+    color: white;
+    border-radius: 5px;    
+}
+/* set rounded borders to cards */
+.forecast-card .card {
+    border-radius: 5px;
+
+}
+/* added padding to uv index span */
+#uv-index {
+    padding-right: 5px;
+    padding-left: 5px;
+}
